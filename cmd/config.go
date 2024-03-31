@@ -11,6 +11,7 @@ import (
 
 type ConfigStructure struct {
 	ServerPort string
+	Bucket     string
 }
 
 var Config ConfigStructure
